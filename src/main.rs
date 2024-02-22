@@ -20,7 +20,7 @@
 // }
 mod server;
 mod client;
-
+mod helper;
 fn main() {
 println!("Hi, Are you the server or the client? 1 for server, 2 for client");
 let mut choice = String::new();
